@@ -1,0 +1,212 @@
+/* propriétés d'ensemble des elements de la page*/
+
+*{
+
+    font-family: Avenir, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+
+}
+
+/*couleur de fond du corps de la page*/
+
+body{
+
+    background-color: bisque;
+
+}
+
+
+/*barre horizontale*/
+
+hr{
+
+    border: 2px solid rgba(42, 59, 57, 0.966);
+    width: 400px;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+/*mise en place de la section et gestion d'effet*/
+
+section{
+    
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: cornsilk;
+}
+
+
+
+/* Espacement des éléments h2 de la section, les grands titres*/
+
+section h2{
+    margin: 20px 0;
+    width: 90%;
+}
+
+
+/* psitionner verticalement le contenu des div*/
+
+section > div{
+    width: 90%;
+}
+
+
+/*Creation de forme d'insertion image et position*/
+
+.photo img{
+
+    width: 150px;
+    height: 170px;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 10px #777;
+    border-radius: 50%;
+    margin-top: 10px;
+    
+    float: right;
+
+}
+
+
+/* Position du nom et prénom et forme*/
+
+h1{
+
+    text-align:left;
+
+    font-size: 30px;
+
+    color: rgb(5, 107, 107);
+
+    }
+
+    /* style d'écirture date de naissance */
+
+.naiss{
+
+    font-style: italic;
+
+    font-weight: 600;
+
+}
+
+
+/* effet sur la profession */
+
+.metier{
+
+    text-align: left;
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    font-style: oblique;
+    
+}
+
+/*Centrer les grands titres tel profil, etc puis appliquer des couleur et soulignage*/
+
+.ali{
+    text-align: center;
+    color: rgb(39, 168, 168);
+   text-decoration-line: underline;
+   
+}
+
+
+
+/*centrer texte profil */
+
+.profil{
+
+    text-align: center;
+}
+
+
+
+/*gestion de la marge des paragraphes*/
+
+ .align p{
+
+    margin-left: 150px;
+    
+} 
+
+
+/*mise en forme coordonnées*/
+
+.coordonnee{
+
+    margin-left: 150px;
+    color: rgb(170, 22, 133);
+}
+
+
+/*position des liste d'élements pointillés*/
+
+.align li{
+    
+    margin-left: 150px;
+}
+
+
+/*position paragraphe des div*/
+
+.alignement p{
+
+    margin-left: 150px;
+    
+}
+
+
+/*position des h4 */
+
+.align h4{
+
+    margin-left: 80px;
+
+}
+
+/*couleur h5*/
+
+.align h5{
+    color: blue;
+}
+
+/*position des h5 */
+
+.align h5{
+
+    margin-left: 80px;
+
+}
+
+/*Utilisation de média queries pour gerer la section et le contenu avec le mode d'affichage*/
+
+ @media screen and (min-width: 980px){ */
+    
+    section{
+
+        width: 80%;
+        box-shadow: 0px 0px 10px #bbb;
+
+    } 
+
+
+    #container{
+
+         width: 900px;
+        margin: 0 auto;
+        
+    }
+    
+   
+ } 
